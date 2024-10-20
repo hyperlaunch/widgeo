@@ -1,0 +1,17 @@
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+  SuggestExtensions: false
+
+Naming/VariableNumber:
+  AllowedIdentifiers:
+    - alpha_2
+    - continent_alpha_2
+
+Metrics/BlockLength:
+  Max: 35
+  Exclude:
+    - "spec/**/*"
+
+Gemspec/DevelopmentDependencies:
+  Enabled: false

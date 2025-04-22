@@ -22,10 +22,5 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 2.0'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.1'
-  spec.add_development_dependency 'rubocop', '~> 1.67'
-  spec.add_development_dependency 'ruby-lsp', '~> 0.20.1'
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
